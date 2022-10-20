@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send("This is version 2 of the app.")
+  res.send("This is version 3 of the app.")
 })
 
 const PORT = process.env.OPENSHIFT_NODEJS_PORT || 8080
